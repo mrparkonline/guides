@@ -77,6 +77,8 @@ This step will save you the hassle of dealing with more headaches later, it is a
 3. At this point, it should be downloading and installing bunch of updates. Some updates will say ```pending restart```, so when it seems that all the update listed are done downloading and installing and has the restart message, let the laptop restart by clicking ```restart now```
 4. Let your laptop restart and go through the update process.
 
+More reading for installing Windows can be read [here](https://www.reddit.com/r/pcmasterrace/comments/77pjvf/the_correct_way_to_install_windows_10/).
+
 ## Step 3: Browser of Choice
 
 I am not going to judge for what browser you use, but if you intend to not use Microsoft Edge, I would install your go to browser now.
@@ -105,8 +107,56 @@ My current application list from Ninite:
 
 _I left out Steam because this should be your **working machine**._
 
-## Step 5: Remove Preinstalled Crap
+## Step 5: Remove Preinstalled Applications
 
 If you have Revo Uninstaller, this should be your go to uninstaller rather than the Windows' Uninstaller tool. Revo will help you remove these programs much nicer.
 
 Revo Uninstaller has a tab called ```Windows App```. I would go through this list and start removing the apps that you don't need. If you are unsure what the app does, you can always Google it.
+
+## Step 6: Windows Settings
+
+From here on, you have a really good base point of a working machine. Therefore, every step from here will be **optional**.
+
+Windows Settings to look at:
+- ```Cortana:``` I don't choose to use it, but the choice is yours
+- ```Privacy:``` Opt-out of whatever you are not comfortable with
+- ```Personalization:``` Style your computer the way you like it
+
+## Step 7: UELI App Launcher
+
+Coming from macOS I really wanted a spotlight and Alfred alternative that is not the built-in Windows Search. There are a lot of different options, but I decided to go with UELI.
+
+Instead of fumbling through folders, start menu, or even filling up your desktop, you can use a keyboard based application launcher to help you open your things.
+
+[Check out UELI Here.](https://ueli.app/#/)
+
+## Programming & Developing Setup
+
+#### a) Visual Studio Code
+
+A great integrated development environment. Really useful for your development needs. It will be useful for the other setup coming up as well.
+
+You can get it [here](https://code.visualstudio.com).
+
+#### b) Windows Subsystem for Linux (WSL)
+
+Most likely when you are programming or developing a project, you will require some sort of a Linux environment.
+
+Here are two great tutorials to help you set it up. I would flip back and forth with the two tutorials to set it up.
+- [Firebase.io Tutorial](https://fireship.io/lessons/windows-10-for-web-dev/)
+- [Microsoft Tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+```Please Note: Installing the Windows Terminal App is heavily recommended```
+
+#### c) Get a Text Editor for Windows
+
+Notepad is great minimalist application, but at some point you may want a stronger editor.
+
+Here are some that I recommend:
+- Notepad++
+- Sublime Text 2/3
+- Atom.io
+
+```
+As of 06/20/2020, this is my current setup. I do have jupyterlab and python3 installed since I mainly program in Python.
+```
